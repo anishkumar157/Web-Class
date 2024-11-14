@@ -1,0 +1,67 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00695c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #00695c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Border Properties Example */
+.border-box {
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+
+    /* Border Properties */
+    border: 5px solid #004d40;
+    border-bottom: 8px solid #00897b;
+    border-bottom-color: #004d40;
+    border-bottom-style: dashed;
+    border-bottom-width: 4px;
+
+    border-color: #004d40 #00897b #004d40 #00897b;
+
+    border-left: 4px solid #004d40;
+    border-left-color: #004d40;
+    border-left-style: dotted;
+    border-left-width: 3px;
+
+    border-right: 3px solid #00897b;
+    border-right-color: #00897b;
+    border-right-style: double;
+    border-right-width: 6px;
+
+    border-style: solid dotted dashed double;
+
+    border-top: 4px solid #004d40;
+    border-top-color: #004d40;
+    border-top-style: solid;
+    border-top-width: 5px;
+
+    border-width: 4px 3px 5px 6px;
+}

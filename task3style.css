@@ -1,0 +1,39 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: #5b0079;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #5b0079;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    padding: 20px;
+}
+
+.font-example {
+    /* Font Properties */
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+}

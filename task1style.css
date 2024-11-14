@@ -1,0 +1,53 @@
+/* General Styling */
+body {
+
+    background-color: #f0f0f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.div1 {
+    padding: 20px;
+}
+
+.styled-text {
+
+    hyphenate-character: "-";
+    hyphenate-limit-chars: 5 3 2;
+    hyphens: auto;
+    letter-spacing: 0.05em;
+    line-break: strict;
+    overflow-wrap: break-word;
+    tab-size: 4;
+    text-align: center;
+    text-align-last: center;
+    text-indent: 2em;
+    text-transform: capitalize;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-spacing: 0.1em;
+
+    text-spacing-trim: auto;
+    text-wrap: balance;
+    text-wrap-mode: auto;
+    text-wrap-style: no-break;
+    white-space-collapse: preserve;
+}
