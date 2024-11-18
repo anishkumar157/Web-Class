@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: orangered;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://static.cricketaddictor.com/images/posts/2024/MS-Dhoni-3-.jpg?q=80");
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249, 249, 249);
+    height: 3.5em;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+.logo-img {
+    width: 5em;
+    height: 3.5em;
+}
+
+ul {
+    padding-right: 2em;
+    display: flex;
+    gap: 2ch;
+    list-style: none;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bolder;
+    padding: 6px;
+}
+
+.match-table {
+    border-collapse: collapse;
+
+
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+th {
+    background-color: rgb(248, 228, 9);
+}
+
+td {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+.main-body {
+    gap: 6em;
+    border: 20px;
+    display: flex;
+    border: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.match-table {
+    padding: 2px;
+    border-radius: 6px;
+}
