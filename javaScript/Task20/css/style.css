@@ -1,0 +1,193 @@
+body {
+    font-family: "Poppins", serif;
+    background-color: antiquewhite;
+    background-image: url("https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/freude/skytop/st-00-teaser-hd.jpg?imwidth=1024");
+    background-size: cover;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: transparent;
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 20Px;
+}
+
+li:hover {
+    padding: 2px;
+
+    background-color: rgb(0, 0, 0);
+
+    border-radius: 6px;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    text-decoration: solid;
+    font-weight: bolder;
+
+}
+
+.a:hover {
+    color: aliceblue;
+}
+
+.log-img {
+
+    padding: 6px;
+    width: 5.5em;
+    height: 3.5em;
+    padding-left: 4em;
+}
+
+.l-img {
+    margin-left: 0;
+}
+
+.signUp-form {
+    width: 23%;
+    height: 60%;
+    background: radial-gradient(circle at 50% 50%, rgba(231, 228, 228, 0.5), rgba(241, 239, 239, 0.5));
+    position: absolute;
+    top: 10em;
+    left: 50px;
+    backdrop-filter: blur(2px);
+    border-radius: 2em;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    text-align: center;
+    color: #111;
+}
+
+.signIn-form {
+    width: 23%;
+    height: 50%;
+    background: radial-gradient(circle at 50% 50%, rgba(231, 228, 228, 0.5), rgba(241, 239, 239, 0.5));
+    position: absolute;
+    top: 12em;
+    left: 50px;
+    backdrop-filter: blur(2px);
+    border-radius: 2em;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    text-align: center;
+    color: #111;
+}
+
+
+.signIn-form h1 {
+    font-size: 2em;
+}
+
+.signIn-form input {
+    margin-top: 2em;
+
+}
+
+.signIn-form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid black;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.signIn-form button {
+    margin-top: 3em;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 15px;
+    background-color: #111;
+    margin-right: 1.2em;
+}
+
+
+.signUp-form h1 {
+    font-size: 2em;
+}
+
+.signUp-form input {
+    margin-top: 2em;
+
+}
+
+.signUp-form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid black;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.signUp-form button {
+    margin-top: 3em;
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 15px;
+    background-color: #111;
+    margin-right: 1.2em;
+}
+
+button a {
+
+    color: white;
+    text-decoration: none;
+}
+
+
+.form-btn {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: radial-gradient(circle at 50% 50%, rgba(129, 125, 125, 0.5), rgba(125, 122, 122, 0.5));
+}
+
+button:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+footer {
+
+    padding: 1.2em 1.5em;
+    background-color: aliceblue;
+    text-align: center;
+    font-weight: 700;
+    border-top: 5px solid #111;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(69, 67, 67);
+}
+
+.card {
+    margin-bottom: 12px;
+}
+
+.yyy {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
